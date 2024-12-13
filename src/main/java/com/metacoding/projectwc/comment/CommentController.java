@@ -4,6 +4,9 @@ import com.metacoding.projectwc.user.User;
 import com.metacoding.projectwc.worldcup.Worldcup;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 
@@ -12,8 +15,16 @@ import org.springframework.web.bind.annotation.PutMapping;
 public class CommentController {
     private final CommentService commentService;
 
+    @GetMapping("/result/{worldcupId}")
+    public String result2(@PathVariable Integer worldcupId, Model model) {
+
+
+
+        return "result";
+    }
+
     // TODO: ResponseEntity<T> 써야하나?
-    @PostMapping("comments")
+    @PostMapping("/comments")
     public String saveComment(CommentRequest.SaveDTO saveDTO) {
         // TODO 로그인 기능 완성될 경우 적용
 //        User seesionUser = (User) session.getAttribute("sessionUser");
@@ -28,7 +39,7 @@ public class CommentController {
         return null;
     }
 
-    @PutMapping("comments")
+    @PutMapping("/comments")
     public String deleteComment() {
         // 논리 삭제 구현
         // TODO 로그인 기능 완성될 경우 적용

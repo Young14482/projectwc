@@ -21,15 +21,15 @@ public class TestController {
 //        return "game";
 //    }
 //
-//    @GetMapping("rank")
-//    public String rank() {
-//        return "rank";
-//    }
-//
-//    @GetMapping("result")
-//    public String result() {
-//        return "result";
-//    }
+        @GetMapping("rank")
+        public String rank() {
+            return "rank";
+        }
+
+        @GetMapping("result")
+        public String result() {
+            return "result";
+        }
 //
 //    @GetMapping("signup-form")
 //    public String signupForm() {

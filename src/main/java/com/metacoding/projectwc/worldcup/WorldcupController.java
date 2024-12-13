@@ -180,4 +180,5 @@ public class WorldcupController {
 
         return "redirect:/worldcups/game/" + worldcupId + "/" + worldcupGameId;
     }
+
 }
