@@ -7,13 +7,13 @@
 
 ## 목차
 - [프로젝트 소개](#프로젝트-소개)
-- 시연 영상
-- 구현 기능
-- 기술스택
-- 화면구성
-- ERD
-- 보완할 점
-- 느낀점
+- [시연 영상](#시연-영상)
+- [구현 기능](#구현-기능)
+- [기술스택](#기술스택)
+- [화면구성](#화면구성)
+- [ERD](#ERD)
+- [보완할 점](#보완할-점)
+- [느낀점](#느낀점)
 
 ## 프로젝트 소개
 ### 개요
@@ -32,10 +32,10 @@
 음식, 영화, 캐릭터 등 다양한 주제를 다루며, 사용자에게 재미와 흥미를 제공합니다.
 
 ### 팀원 소개 및 담당 업무
-- 이학석 [<img src="https://img.shields.io/badge/Git-이학석-red?logo=GITHUb">](https://github.com/HSLee1013) (팀장) 
-- 이강호 [<img src="https://img.shields.io/badge/Git-이강호-green?logo=GITHUb">](https://github.com/LeeKangHo1) 
-- 임영록 [<img src="https://img.shields.io/badge/Git-임영록-blue?logo=GITHUb">](https://github.com/Young14482) 
-- 구예은 [<img src="https://img.shields.io/badge/Git-구예은-orange?logo=GITHUb">](https://github.com/goho11)  유저 기능 구현
+- 이학석(팀장) : [<img src="https://img.shields.io/badge/Git-이학석-red?logo=GITHUb">](https://github.com/HSLee1013)
+- 이강호 : [<img src="https://img.shields.io/badge/Git-이강호-green?logo=GITHUb">](https://github.com/LeeKangHo1) 
+- 임영록 :  [<img src="https://img.shields.io/badge/Git-임영록-blue?logo=GITHUb">](https://github.com/Young14482) 
+- 구예은 : 유저 기능 구현 [<img src="https://img.shields.io/badge/Git-구예은-orange?logo=GITHUb">](https://github.com/goho11)
 
 ### 프로젝트 기간
 2024년 12월 2일 ~ 2024년 12월 18일
@@ -92,8 +92,24 @@ https://github.com/user-attachments/assets/bf41954b-0794-49dc-a8c0-cf4de64ad952
 <img src="https://img.shields.io/badge/H2-FF4000?style=for-the-badge&logo=H2&logoColor=white">
 
 ### Dependencies
-![image](https://github.com/user-attachments/assets/a073f299-e165-4182-9525-7ed21bf0cdb4)
-
+```
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-aop'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+    implementation 'org.springframework.boot:spring-boot-starter-mustache'
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    compileOnly 'org.projectlombok:lombok'
+    developmentOnly 'org.springframework.boot:spring-boot-devtools'
+    runtimeOnly 'com.h2database:h2'
+    annotationProcessor 'org.projectlombok:lombok'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'org.springframework.security:spring-security-test'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+```
 <br>
 
 ## 화면구성
@@ -122,5 +138,4 @@ https://github.com/user-attachments/assets/bf41954b-0794-49dc-a8c0-cf4de64ad952
 ### 임영록
 
 ### 구예은
-  
-****
+
