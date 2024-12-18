@@ -6,14 +6,14 @@
 </p>
 
 ## 목차
-- [프로젝트 소개](#프로젝트소개)
+- [프로젝트 소개](#프로젝트-소개)
 - 시연 영상
 - 구현 기능
 - 기술스택
 - 화면구성
 - ERD
 - 보완할 점
-- 느낌점
+- 느낀점
 
 ## 프로젝트 소개
 ### 개요
@@ -32,10 +32,10 @@
 음식, 영화, 캐릭터 등 다양한 주제를 다루며, 사용자에게 재미와 흥미를 제공합니다.
 
 ### 팀원 소개 및 담당 업무
-- 이학석(팀장) :  
-- 이강호 : 
-- 임영록 :
-- 구예은 : 유저 구현
+- 이학석 [<img src="https://img.shields.io/badge/Git-이학석-red?logo=GITHUb">](https://github.com/HSLee1013) (팀장) 
+- 이강호 [<img src="https://img.shields.io/badge/Git-이강호-green?logo=GITHUb">](https://github.com/LeeKangHo1) 
+- 임영록 [<img src="https://img.shields.io/badge/Git-임영록-blue?logo=GITHUb">](https://github.com/Young14482) 
+- 구예은 [<img src="https://img.shields.io/badge/Git-구예은-orange?logo=GITHUb">](https://github.com/goho11)  유저 기능 구현
 
 ### 프로젝트 기간
 2024년 12월 2일 ~ 2024년 12월 18일
@@ -114,7 +114,7 @@ https://github.com/user-attachments/assets/bf41954b-0794-49dc-a8c0-cf4de64ad952
 - 관리자 페이지
 <br>
 
-## 느낌점
+## 느낀점
 ### 이학석
 
 ### 이강호
