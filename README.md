@@ -36,7 +36,7 @@
 ### 팀원 소개 및 담당 업무
 - 이학석(팀장) : 프로젝트 셋팅 및 관리, 월드컵 만들기 구현, 테스트 및 오류 수정 [<img src="https://img.shields.io/badge/Git-이학석-red?logo=GITHUb">](https://github.com/HSLee1013)
 - 이강호 : [<img src="https://img.shields.io/badge/Git-이강호-green?logo=GITHUb">](https://github.com/LeeKangHo1) 
-- 임영록 :  [<img src="https://img.shields.io/badge/Git-임영록-blue?logo=GITHUb">](https://github.com/Young14482) 
+- 임영록 : 게임 시작전 설정 페이지 화면 및 기능 구현, 게임 플레이 화면 및 기능 구현 [<img src="https://img.shields.io/badge/Git-임영록-blue?logo=GITHUb">](https://github.com/Young14482) 
 - 구예은 : 유저 기능 구현 [<img src="https://img.shields.io/badge/Git-구예은-orange?logo=GITHUb">](https://github.com/goho11)
 
 ### 프로젝트 기간
