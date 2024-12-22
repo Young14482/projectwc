@@ -92,8 +92,8 @@ https://github.com/user-attachments/assets/bf41954b-0794-49dc-a8c0-cf4de64ad952
 <img src="https://img.shields.io/badge/H2-FF4000?style=for-the-badge&logo=H2&logoColor=white"><img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
 <br>
 
-## 화면구성
-![image](https://github.com/user-attachments/assets/d1ebc0c7-d41b-497c-87d6-fe82d7abea34)
+## 사이트맵
+![image](https://github.com/user-attachments/assets/e6ee8a32-7a59-4877-96fb-6aad5b065888)
 
 <br>
 
