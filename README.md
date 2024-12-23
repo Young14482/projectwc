@@ -99,7 +99,7 @@ https://github.com/user-attachments/assets/bf41954b-0794-49dc-a8c0-cf4de64ad952
 <br>
 
 ## ERD
-![image](https://github.com/user-attachments/assets/94fc18b4-3713-4bbf-9b9e-19c7830d2d53)
+![image](https://github.com/user-attachments/assets/1012962c-7555-4db1-b365-3203d151c3dc)
 
 <br>
 
