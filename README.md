@@ -49,17 +49,21 @@ https://github.com/user-attachments/assets/bf41954b-0794-49dc-a8c0-cf4de64ad952
 ### 유저 관련
 - 로그인, 로그아웃
 - 회원 가입 / 수정 / 탈퇴
-![](wc%20project%20image/메인화면.jpg)
+![메인화면](https://github.com/user-attachments/assets/4c993890-3d81-4075-85b8-f8056122d2d7)
+
 - 정렬 : 인기순, 최신순 
 - 월드컵 제목으로 검색
-![](wc%20project%20image/월드컵%20만들기.jpg)
+![월드컵 만들기](https://github.com/user-attachments/assets/74a4ce44-a76b-437a-823c-7fc55fca3605)
+
 - DropZone 이미지 업로드 : 드래그 앤 드롭으로 이미지 추가/변경
 - 비동기 통신 : 월드컵 정보 및 이미지 수정
-![](wc%20project%20image/월드컵%20플레이.jpg)
+![월드컵 플레이](https://github.com/user-attachments/assets/b32cb303-28f1-4be8-b5b9-2a269d34df90)
+
 - 두 이미지 중 선택된 이미지만 승리
 - 클릭 시 승자와 패자 데이터를 숨겨진 폼에 설정
 - 데이터를 서버에 제출하여 다음 라운드 진행
-![](wc%20project%20image/랭킹%20보기.jpg)
+![랭킹 보기](https://github.com/user-attachments/assets/8c8311b5-f7ad-46fd-9a38-89da18fa0bb8)
+
 - 서버에서 이미지 목록 동적 로딩
 - 정렬 : 이름, 우승비율, 승률
 - 이미지 이름으로 검색
