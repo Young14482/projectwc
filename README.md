@@ -1,4 +1,3 @@
-
 <p align="center">
   <img src="https://github.com/user-attachments/assets/042778ff-b7ff-48e0-9442-fdee3f957e68">
 </p>
@@ -27,49 +26,66 @@ https://github.com/user-attachments/assets/bf41954b-0794-49dc-a8c0-cf4de64ad952
 ### 데이터베이스
 <img src="https://img.shields.io/badge/H2-FF4000?style=for-the-badge&logo=H2&logoColor=white"><img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
 ### 프로젝트 기간
-2024년 12월 2일 ~ 2024년 12월 18일
+- 2024년 12월 2일 ~ 2024년 12월 18일
 ## 목차
 ### 1. 프로젝트 설계([이동](#1-프로젝트-설계))
+- 사이트맵
+- ERD
+- 초기 업무 분배
+- 팀 노션 관리
 ### 2. 주요 기능([이동](#2-주요-기능))
+- 유저 관련
+- 월드컵 목록(메인 화면)
+- 월드컵 만들기
+- 월드컵 게임 플레이
+- 월드컵 랭킹
 ### 3. 담당 업무([이동](#3-담당-업무))
 ---
 ## 1. 프로젝트 설계
-- #### 사이트맵
-![project wc sitemap](https://github.com/user-attachments/assets/6da67c3f-82f6-4c22-ab89-6fc4fc01d6ff)
+- ### 사이트맵
+![project wc sitemap](https://github.com/user-attachments/assets/93af0014-58a7-41a7-ad10-0bde83dbc40a)
 
-- #### ERD
-![ERD 최종](https://github.com/user-attachments/assets/99e9bfc5-4ab5-4e20-adf5-54f6ea4cb3cf)
+- ### ERD
+![ERD 최종](https://github.com/user-attachments/assets/4d2e82e9-ba59-4949-902e-a9d1f3b038b4)
 
-- #### 초기 업무 분배
-![최초 업무 분배](https://github.com/user-attachments/assets/efcd6468-8f3a-4398-9798-1b917602b6d4)
+- ### 초기 업무 분배
+![최초 업무 분배](https://github.com/user-attachments/assets/4bf1e7fc-6d6a-44f7-93ea-7e6ecbb8334a)
 
-- #### 팀 노션 관리
-![팀 노션 문서 관리](https://github.com/user-attachments/assets/3fe32403-1c7f-4a09-aae8-8b4dbb9aac3c)
+- ### 팀 노션 관리
+![팀 노션 문서 관리](https://github.com/user-attachments/assets/806f2e39-e107-4d31-a123-ff465c173ddf)
+
 ## 2. 주요 기능
 ### 유저 관련
 - 로그인, 로그아웃
 - 회원 가입 / 수정 / 탈퇴
-![메인화면](https://github.com/user-attachments/assets/4c993890-3d81-4075-85b8-f8056122d2d7)
 
+![회원 정보 수정](https://github.com/user-attachments/assets/7a13e6c5-fd2d-4bfd-8f32-51b4103190ed)
+
+### 월드컵 목록 
 - 정렬 : 인기순, 최신순 
 - 월드컵 제목으로 검색
-![월드컵 만들기](https://github.com/user-attachments/assets/74a4ce44-a76b-437a-823c-7fc55fca3605)
+![메인화면](https://github.com/user-attachments/assets/545aa253-e130-475d-9323-6297b974b4f4)
 
+### 월드컵 만들기
 - DropZone 이미지 업로드 : 드래그 앤 드롭으로 이미지 추가/변경
 - 비동기 통신 : 월드컵 정보 및 이미지 수정
-![월드컵 플레이](https://github.com/user-attachments/assets/b32cb303-28f1-4be8-b5b9-2a269d34df90)
+![월드컵 만들기](https://github.com/user-attachments/assets/2123b601-09e7-45b5-b517-fdb8fd0a8800)
 
+### 월드컵 게임 플레이
 - 두 이미지 중 선택된 이미지만 승리
 - 클릭 시 승자와 패자 데이터를 숨겨진 폼에 설정
 - 데이터를 서버에 제출하여 다음 라운드 진행
-![랭킹 보기](https://github.com/user-attachments/assets/8c8311b5-f7ad-46fd-9a38-89da18fa0bb8)
+![월드컵 플레이](https://github.com/user-attachments/assets/c4a02b85-79dc-4948-a8b5-87b89e4d2d3a)
 
+### 월드컵 랭킹
 - 서버에서 이미지 목록 동적 로딩
 - 정렬 : 이름, 우승비율, 승률
 - 이미지 이름으로 검색
 - 댓글 기능
+![랭킹 화면](https://github.com/user-attachments/assets/ec218b12-5c88-4ca5-8467-a38e116f710a)
+
 ## 3. 담당 업무
-### 여기서부턴 알아서 작성
+# 여기서부턴 알아서 작성
 - 이학석(팀장) 
 	- 프로젝트 세팅 및 관리, 월드컵 만들기 구현, 테스트 및 오류 수정 
 - 이강호 
