@@ -10,15 +10,11 @@
 - 월드컵과 같이 토너먼트 방식으로 자신이 선호하는 것을 선택하여 최종적으로 이상형을 찾는 게임
 ## 시연 영상
 https://github.com/user-attachments/assets/bf41954b-0794-49dc-a8c0-cf4de64ad952
-### 팀원 소개 및 담당 업무
+## 팀원 소개
 - 이학석(팀장) [<img src="https://img.shields.io/badge/Git-이학석-red?logo=GITHUb">](https://github.com/HSLee1013)
-	- 프로젝트 셋팅 및 관리, 월드컵 만들기 구현, 테스트 및 오류 수정 
 - 이강호 [<img src="https://img.shields.io/badge/Git-이강호-green?logo=GITHUb">](https://github.com/LeeKangHo1) 
-	- 메인 화면(월드컵 목록 보기, 정렬, 검색), 댓글 관련 기능 구현 
 - 임영록 [<img src="https://img.shields.io/badge/Git-임영록-blue?logo=GITHUb">](https://github.com/Young14482) 
-	- 게임 시작전 설정 페이지 화면 및 기능 구현, 게임 플레이 화면 및 기능 구현 
 - 구예은 [<img src="https://img.shields.io/badge/Git-구예은-orange?logo=GITHUb">](https://github.com/goho11)
-	- 유저 기능 구현 
 ## 기술 스택
 <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white"><img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"><img src="https://img.shields.io/badge/gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white"><img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white"><img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css&logoColor=white"><img src="https://img.shields.io/badge/mustache-FF880F?style=for-the-badge&logo=mustache&logoColor=white"><img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"><img src="https://img.shields.io/badge/postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white">
 
@@ -30,94 +26,61 @@ https://github.com/user-attachments/assets/bf41954b-0794-49dc-a8c0-cf4de64ad952
 
 ### 데이터베이스
 <img src="https://img.shields.io/badge/H2-FF4000?style=for-the-badge&logo=H2&logoColor=white"><img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
-
-## 목차
-- [구현 기능](#구현-기능)
-- [기술스택](#기술스택)
-- [사이트맵](#사이트맵)
-- [ERD](#ERD)
-- [보완할 점](#보완할-점)
-- [트러블 슈팅](#트러블-슈팅)
-- [느낀점](#느낀점)
-
-
-
-### 주요 기능
-- 이상형 월드컵 등록<br>
-사용자가 원하는 주제로 자신만의 월드컵을 생성할 수 있습니다. 간단한 이미지 추가로 게임을 손쉽게 등록할 수 있습니다.
-- 댓글 소통<br>
-각 월드컵 게임에 댓글을 남길 수 있어 사용자 간 의견을 공유하고 소통할 수 있습니다. 좋아하는 선택지나 게임에 대한 생각을 바로 표현할 수 있습니다.
-- 참여 및 최종 승자 결정<br>
-사용자는 등록된 게임에 참여해 선호도를 바탕으로 최종 승자를 선택하며, 결과를 즉시 확인할 수 있습니다.
-- 통계 및 정렬<br>
-월드컵 게임 결과에 대한 통계를 제공하며, 다양한 기준으로 정렬할 수 있어 데이터를 효율적으로 확인할 수 있습니다.
-- 다양한 주제<br>
-음식, 영화, 캐릭터 등 다양한 주제를 다루며 사용자에게 재미와 흥미를 선사합니다.
-
-
 ### 프로젝트 기간
 2024년 12월 2일 ~ 2024년 12월 18일
-<br>
+## 목차
+### 1. 프로젝트 설계([이동](#1-프로젝트-설계))
+### 2. 주요 기능([이동](#2-주요-기능))
+### 3. 담당 업무([이동](#3-담당-업무))
+---
+## 1. 프로젝트 설계
+- #### 사이트맵
+![project wc sitemap](https://github.com/user-attachments/assets/6da67c3f-82f6-4c22-ab89-6fc4fc01d6ff)
 
+- #### ERD
+![ERD 최종](https://github.com/user-attachments/assets/99e9bfc5-4ab5-4e20-adf5-54f6ea4cb3cf)
 
+- #### 초기 업무 분배
+![최초 업무 분배](https://github.com/user-attachments/assets/efcd6468-8f3a-4398-9798-1b917602b6d4)
 
-<br>
-
-## 주요기능
-### 유저 관련 기능
+- #### 팀 노션 관리
+![팀 노션 문서 관리](https://github.com/user-attachments/assets/3fe32403-1c7f-4a09-aae8-8b4dbb9aac3c)
+## 2. 주요 기능
+### 유저 관련
 - 로그인, 로그아웃
-- 로그인 시 상단 메뉴 변경
-- 개인정보 수정
-- 회원탈퇴
-
-### 월드컵 아이템 API 기능
-- 이미지 목록 로드 : 서버에서 이미지 목록 동적 로딩
-- 정렬/검색 : 이름, 우승비율, 승률 정렬 및 검색
-- 페이지네이션 : 목록을 페이지로 나눠서 표시
-
-### 월드컵 목록 기능
-- 인기순, 최신순 정렬
-- 월드컵 제목 검색
-
-### 월드컵 만들기 기능
+- 회원 가입 / 수정 / 탈퇴
+![](wc%20project%20image/메인화면.jpg)
+- 정렬 : 인기순, 최신순 
+- 월드컵 제목으로 검색
+![](wc%20project%20image/월드컵%20만들기.jpg)
 - DropZone 이미지 업로드 : 드래그 앤 드롭으로 이미지 추가/변경
 - 비동기 통신 : 월드컵 정보 및 이미지 수정
-
-### 월드컵 게임 기능
+![](wc%20project%20image/월드컵%20플레이.jpg)
 - 두 이미지 중 선택된 이미지만 승리
 - 클릭 시 승자와 패자 데이터를 숨겨진 폼에 설정
 - 데이터를 서버에 제출하여 다음 라운드 진행
-
-### 댓글 기능
-- 댓글을 달 경우 우승자 이름도 기록
-- 본인 댓글 삭제
-<br>
-
-
-<br>
-
-## 사이트맵
-![image](https://github.com/user-attachments/assets/e6ee8a32-7a59-4877-96fb-6aad5b065888)
-
-<br>
-
-## ERD
-![image](https://github.com/user-attachments/assets/1012962c-7555-4db1-b365-3203d151c3dc)
-
-<br>
-
+![](wc%20project%20image/랭킹%20보기.jpg)
+- 서버에서 이미지 목록 동적 로딩
+- 정렬 : 이름, 우승비율, 승률
+- 이미지 이름으로 검색
+- 댓글 기능
+## 3. 담당 업무
+### 여기서부턴 알아서 작성
+- 이학석(팀장) 
+	- 프로젝트 세팅 및 관리, 월드컵 만들기 구현, 테스트 및 오류 수정 
+- 이강호 
+	- 메인 화면(월드컵 목록 보기, 정렬, 검색), 댓글 관련 기능 구현 
+- 임영록 
+	- 게임 시작 전 설정 페이지 화면 및 기능 구현, 게임 플레이 화면 및 기능 구현 
+- 구예은
+	- 유저 기능 구현 
 ## 보완할 점
 - 소셜 로그인
 - 비로그인시 월드컵 게임/랭킹보기
 - 게임 이어하기
 - 신고하기
 - 관리자 페이지
-
-<br>
-
 ## 트러블 슈팅
-
-<br>
 
 ## 느낀점
 ### 이학석
@@ -130,4 +93,3 @@ https://github.com/user-attachments/assets/bf41954b-0794-49dc-a8c0-cf4de64ad952
 - 처음으로 체계적인 컨벤션과 규칙을 정해 프로젝트를 진행하다 보니 초반에는 다소 불편했지만, 덕분에 팀원들과 협업 능력을 키우며 매우 유익한 경험을 할 수 있었다.
 ### 구예은
 - 담당한 부분에 기능을 추가 구현하지 못해 아쉬웠지만, 기본 구현 이해도를 높일 수 있었다.
-
